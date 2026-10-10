@@ -1,7 +1,5 @@
 <!doctype html>
-<html lang="ko">
-<head>
-<meta charset="utf-8">
+<html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>정보세끼 추천템</title>
 <meta name="description" content="정보세끼 쇼츠에서 소개한 상품을 최신순으로 모았어요.">
@@ -14,185 +12,97 @@
 <meta property="og:locale" content="ko_KR">
 <link rel="stylesheet" href="style.css">
 <style>
-  ul { list-style: none; padding: 0; margin: 20px 0 0; }
-  li { padding: 18px 0; border-bottom: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); scroll-margin-top: 12px; }
-  li:target { background: color-mix(in srgb, var(--accent) 10%, transparent); border-radius: 14px; padding: 18px 12px; }
-  .card { display: flex; gap: 12px; align-items: center; }
-  .no { flex: none; width: 56px; height: 56px; border-radius: 16px; background: var(--accent); color: #fff;
-         font-size: 1.6rem; font-weight: 800; display: flex; align-items: center; justify-content: center; }
-  .card img { flex: none; width: 72px; height: 72px; object-fit: cover; border-radius: 12px; }
-  .body { min-width: 0; }
-  .title { font-weight: 700; line-height: 1.4; }
-  .date { color: var(--muted); font-size: .8rem; }
-  .buy { display: block; margin: 12px 0 6px; padding: 14px; border-radius: 14px; text-align: center;
-          background: var(--accent); color: #fff; font-weight: 700; font-size: 1.05rem; text-decoration: none; }
-  .ghost { font-size: .85rem; }
-  .notice { background: color-mix(in srgb, var(--accent) 12%, transparent); padding: 10px 14px; border-radius: 10px; font-size: .85rem; }
-  .find { font-size: 1.05rem; font-weight: 700; }
-</style>
-</head>
-<body>
-<main>
-  <h1>정보세끼 추천템</h1>
-  <p class="notice">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
-  <p class="find">🔢 영상에서 말한 <b>번호</b>를 찾아 누르세요. 최신 상품이 맨 위에 있어요.</p>
-  <ul>
-    <li id="13">
-      <div class="card">
-        <div class="no">13</div><img src="https://i.ytimg.com/vi/In4mlmNt9aU/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">3개월만 맡겨도 연 3% 시대</div>
-          <div class="date">2026.10.10</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hHbh1uKMFM" rel="sponsored nofollow">🛒 가계부 노트 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/In4mlmNt9aU">영상 다시 보기</a>
-    </li>
-    <li id="12">
-      <div class="card">
-        <div class="no">12</div><img src="https://i.ytimg.com/vi/7FLh6_u0z90/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">콘센트 하나 뽑았다가 냉동실 다 버렸어요</div>
-          <div class="date">2026.10.09</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hGp0b5Y64O" rel="sponsored nofollow">🛒 냉장고 정전 알림기 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/7FLh6_u0z90">영상 다시 보기</a>
-    </li>
-    <li id="11">
-      <div class="card">
-        <div class="no">11</div><img src="https://i.ytimg.com/vi/i9Laf3d3hN0/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">리튬 자리를 노리는 재료가 주방에 있다</div>
-          <div class="date">2026.10.09</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hFR0sDsrnw" rel="sponsored nofollow">🛒 천일염 소금통 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/i9Laf3d3hN0">영상 다시 보기</a>
-    </li>
-    <li id="10">
-      <div class="card">
-        <div class="no">10</div><img src="https://i.ytimg.com/vi/GMM1EO7WQTs/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">한류의 시작은 겨울연가가 아니었어요</div>
-          <div class="date">2026.10.08</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hEyPnIcQcS" rel="sponsored nofollow">🛒 담요 극세사 무릎담요 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/GMM1EO7WQTs">영상 다시 보기</a>
-    </li>
-    <li id="9">
-      <div class="card">
-        <div class="no">9</div><img src="https://i.ytimg.com/vi/l2t5LxpmK8U/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">약인 줄 알았는데 파란 불빛이었어요</div>
-          <div class="date">2026.10.08</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hD8ykUXDRk" rel="sponsored nofollow">🛒 블루라이트 무드등 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/l2t5LxpmK8U">영상 다시 보기</a>
-    </li>
-    <li id="8">
-      <div class="card">
-        <div class="no">8</div><img src="https://i.ytimg.com/vi/raqoo9TMj1Q/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">블랙박스 보냈다가 노래 실력 들킨 썰</div>
-          <div class="date">2026.10.07</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hCYZH5EJYz" rel="sponsored nofollow">🛒 차량용 블랙박스 메모리카드 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/raqoo9TMj1Q">영상 다시 보기</a>
-    </li>
-    <li id="7">
-      <div class="card">
-        <div class="no">7</div><img src="https://i.ytimg.com/vi/3SX6PAPAvxo/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">자동차 운반선에 원자로를 싣는 이유</div>
-          <div class="date">2026.10.07</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hCeRnJKiOa" rel="sponsored nofollow">🛒 선박 모형 조립키트 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/3SX6PAPAvxo">영상 다시 보기</a>
-    </li>
-    <li id="6">
-      <div class="card">
-        <div class="no">6</div><img src="https://i.ytimg.com/vi/yqoD6rKS9y0/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">라디오스타가 살아남은 진짜 이유</div>
-          <div class="date">2026.10.06</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hBezlGFtKu" rel="sponsored nofollow">🛒 극세사 무릎담요 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/yqoD6rKS9y0">영상 다시 보기</a>
-    </li>
-    <li id="5">
-      <div class="card">
-        <div class="no">5</div><img src="https://i.ytimg.com/vi/WFsoEn1gMzY/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">비밀번호 4번에서 멈춘 인공지능</div>
-          <div class="date">2026.10.06</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hADtRTgoIm" rel="sponsored nofollow">🛒 보안 USB 메모리 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/WFsoEn1gMzY">영상 다시 보기</a>
-    </li>
-    <li id="4">
-      <div class="card">
-        <div class="no">4</div><img src="https://i.ytimg.com/vi/BQRJ6H4lVVI/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">2주 동안 연락이 뚝 끊긴 진짜 이유</div>
-          <div class="date">2026.10.05</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hzAE9aIDxQ" rel="sponsored nofollow">🛒 휴대폰 거치대 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/BQRJ6H4lVVI">영상 다시 보기</a>
-    </li>
-    <li id="3">
-      <div class="card">
-        <div class="no">3</div><img src="https://i.ytimg.com/vi/DJpob3_W728/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">금포도인 줄 알았는데 매대에 쌓였어요</div>
-          <div class="date">2026.10.05</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hyUi2sO2Dc" rel="sponsored nofollow">🛒 과일 보관용기 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/DJpob3_W728">영상 다시 보기</a>
-    </li>
-    <li id="2">
-      <div class="card">
-        <div class="no">2</div><img src="https://i.ytimg.com/vi/pjAwFbSklNc/hqdefault.jpg" alt="" loading="lazy">
-        <div class="body">
-          <div class="title">그 반지하, 잠기려고 지은 집이었어요</div>
-          <div class="date">2026.10.04</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hxUvrbCb0u" rel="sponsored nofollow">🛒 방수 장화 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/pjAwFbSklNc">영상 다시 보기</a>
-    </li>
-    <li>
-      <div class="card">
-        
-        <div class="body">
-          <div class="title">지퍼백은 원래 연필 넣는 봉투였음</div>
-          <div class="date">2026.09.29</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hqv99zgS04" rel="sponsored nofollow">🛒 지퍼백 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/ERBUTLWkREs">영상 다시 보기</a>
-    </li>
-    <li>
-      <div class="card">
-        
-        <div class="body">
-          <div class="title">보온병, 원래 커피 담는 물건이 아니었음</div>
-          <div class="date">2026.09.27</div>
-        </div>
-      </div>
-      <a class="buy" href="https://link.coupang.com/a/hnZwnF4Vc4" rel="sponsored nofollow">🛒 보온 텀블러 보러 가기</a>
-      <a class="ghost" href="https://youtube.com/shorts/XUrFikEthR8">영상 다시 보기</a>
-    </li>
-  </ul>
-  <footer><a href="index.html">정보세끼 소개</a> · <a href="privacy.html">개인정보처리방침</a></footer>
-</main>
-</body>
-</html>
+:root{--ink:#172b27;--muted:#66766f;--accent:#176c51;--line:#e1e6df;--paper:#f8f9f4}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,'Malgun Gothic',sans-serif}
+main{max-width:850px;margin:auto;padding:42px 24px}h1{font-size:32px;letter-spacing:-1.5px;margin:10px 0}
+.eyebrow{font-size:12px;color:var(--muted);margin:0 0 8px}.intro{color:var(--muted);line-height:1.6;margin:12px 0 22px}
+.notice{font-size:12px;line-height:1.7;border:1px solid var(--line);padding:12px 16px;border-radius:12px;background:white}
+.search-box{position:sticky;top:0;background:var(--paper);padding:18px 0 12px;z-index:2}
+label{font-size:14px;font-weight:700;display:block;margin-bottom:8px}.search-row{display:flex;gap:8px}
+input{width:100%;min-width:0;border:1px solid #abbeb0;background:white;border-radius:12px;padding:15px;font:inherit;color:var(--ink)}
+button{border:1px solid var(--line);background:white;color:var(--ink);border-radius:12px;padding:10px 16px;white-space:nowrap;cursor:pointer;font:inherit}
+.result{font-size:12px;color:var(--muted);margin:10px 0 0}ul{list-style:none;padding:0;margin:12px 0}
+.product{display:grid;grid-template-columns:170px 1fr;gap:22px;border:1px solid var(--line);border-radius:18px;background:white;padding:20px;margin-bottom:14px;scroll-margin-top:165px}
+.product:target{outline:2px solid var(--accent)}.photo{position:relative;aspect-ratio:1;background:#edf1e9;border-radius:12px;overflow:hidden;align-self:start}
+.product-photo{width:100%;height:100%;object-fit:contain}.photo-empty{height:100%;display:grid;place-content:center;text-align:center;color:#758277;font-size:14px;line-height:1.8}
+.number{position:absolute;top:9px;left:9px;background:var(--ink);color:white;padding:5px 9px;border-radius:7px;font-size:12px;font-weight:700}
+h2{font-size:21px;margin:0 0 8px;letter-spacing:-.6px}.video-title{font-size:14px;color:var(--muted);line-height:1.6;margin:0 0 16px}
+.buy{display:flex;align-items:center;justify-content:space-between;background:var(--accent);color:white;padding:13px 16px;border-radius:10px;text-decoration:none;font-weight:700;font-size:14px}
+.buy.disabled{background:#e8ece7;color:var(--muted)}.video-link{display:inline-block;margin-top:12px;font-size:12px;color:var(--muted)}
+.empty{padding:30px 12px;text-align:center;color:var(--muted)}footer{font-size:12px;padding-top:24px;color:var(--muted)}footer a{color:inherit}[hidden]{display:none!important}
+@media(max-width:520px){main{padding:26px 16px}h1{font-size:27px}.product{grid-template-columns:100px 1fr;gap:14px;padding:14px}h2{font-size:17px}.video-title{font-size:12px}.eyebrow{font-size:10px}.buy{font-size:12px;padding:12px 10px}.photo-empty{font-size:12px}}
+</style></head><body><main>
+<p class="eyebrow">정보세끼 · 영상에서 본 물건 찾기</p><h1>찾던 물건, 여기 있어요.</h1>
+<p class="intro">영상에서 본 번호나 상품명을 검색하세요.<br>예전 영상의 상품도 바로 찾을 수 있어요.</p>
+<p class="notice">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+<div class="search-box"><label for="find">상품 번호 · 상품명</label><div class="search-row"><input id="find" type="search" placeholder="예: 20 또는 식기건조대" autocomplete="off"><button id="clear" type="button">전체 보기</button></div><p id="count" class="result" role="status" aria-live="polite"></p></div>
+<ul id="products"><li class="product" id="13" data-number="13" data-search="13 가계부 노트 3개월만 맡겨도 연 3% 시대">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">13번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.10</p>
+<h2>가계부 노트</h2><p class="video-title">3개월만 맡겨도 연 3% 시대</p><a class="buy" data-pick="13" href="https://link.coupang.com/a/hHbh1uKMFM" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/In4mlmNt9aU">소개 영상 다시 보기</a></div></li>
+<li class="product" id="12" data-number="12" data-search="12 냉장고 정전 알림기 콘센트 하나 뽑았다가 냉동실 다 버렸어요">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">12번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.09</p>
+<h2>냉장고 정전 알림기</h2><p class="video-title">콘센트 하나 뽑았다가 냉동실 다 버렸어요</p><a class="buy" data-pick="12" href="https://link.coupang.com/a/hGp0b5Y64O" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/7FLh6_u0z90">소개 영상 다시 보기</a></div></li>
+<li class="product" id="11" data-number="11" data-search="11 천일염 소금통 리튬 자리를 노리는 재료가 주방에 있다">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">11번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.09</p>
+<h2>천일염 소금통</h2><p class="video-title">리튬 자리를 노리는 재료가 주방에 있다</p><a class="buy" data-pick="11" href="https://link.coupang.com/a/hFR0sDsrnw" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/i9Laf3d3hN0">소개 영상 다시 보기</a></div></li>
+<li class="product" id="10" data-number="10" data-search="10 담요 극세사 무릎담요 한류의 시작은 겨울연가가 아니었어요">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">10번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.08</p>
+<h2>담요 극세사 무릎담요</h2><p class="video-title">한류의 시작은 겨울연가가 아니었어요</p><a class="buy" data-pick="10" href="https://link.coupang.com/a/hEyPnIcQcS" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/GMM1EO7WQTs">소개 영상 다시 보기</a></div></li>
+<li class="product" id="9" data-number="9" data-search="9 블루라이트 무드등 약인 줄 알았는데 파란 불빛이었어요">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">9번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.08</p>
+<h2>블루라이트 무드등</h2><p class="video-title">약인 줄 알았는데 파란 불빛이었어요</p><a class="buy" data-pick="9" href="https://link.coupang.com/a/hD8ykUXDRk" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/l2t5LxpmK8U">소개 영상 다시 보기</a></div></li>
+<li class="product" id="8" data-number="8" data-search="8 차량용 블랙박스 메모리카드 블랙박스 보냈다가 노래 실력 들킨 썰">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">8번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.07</p>
+<h2>차량용 블랙박스 메모리카드</h2><p class="video-title">블랙박스 보냈다가 노래 실력 들킨 썰</p><a class="buy" data-pick="8" href="https://link.coupang.com/a/hCYZH5EJYz" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/raqoo9TMj1Q">소개 영상 다시 보기</a></div></li>
+<li class="product" id="7" data-number="7" data-search="7 선박 모형 조립키트 자동차 운반선에 원자로를 싣는 이유">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">7번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.07</p>
+<h2>선박 모형 조립키트</h2><p class="video-title">자동차 운반선에 원자로를 싣는 이유</p><a class="buy" data-pick="7" href="https://link.coupang.com/a/hCeRnJKiOa" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/3SX6PAPAvxo">소개 영상 다시 보기</a></div></li>
+<li class="product" id="6" data-number="6" data-search="6 극세사 무릎담요 라디오스타가 살아남은 진짜 이유">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">6번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.06</p>
+<h2>극세사 무릎담요</h2><p class="video-title">라디오스타가 살아남은 진짜 이유</p><a class="buy" data-pick="6" href="https://link.coupang.com/a/hBezlGFtKu" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/yqoD6rKS9y0">소개 영상 다시 보기</a></div></li>
+<li class="product" id="5" data-number="5" data-search="5 보안 USB 메모리 비밀번호 4번에서 멈춘 인공지능">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">5번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.06</p>
+<h2>보안 USB 메모리</h2><p class="video-title">비밀번호 4번에서 멈춘 인공지능</p><a class="buy" data-pick="5" href="https://link.coupang.com/a/hADtRTgoIm" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/WFsoEn1gMzY">소개 영상 다시 보기</a></div></li>
+<li class="product" id="4" data-number="4" data-search="4 휴대폰 거치대 2주 동안 연락이 뚝 끊긴 진짜 이유">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">4번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.05</p>
+<h2>휴대폰 거치대</h2><p class="video-title">2주 동안 연락이 뚝 끊긴 진짜 이유</p><a class="buy" data-pick="4" href="https://link.coupang.com/a/hzAE9aIDxQ" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/BQRJ6H4lVVI">소개 영상 다시 보기</a></div></li>
+<li class="product" id="3" data-number="3" data-search="3 과일 보관용기 금포도인 줄 알았는데 매대에 쌓였어요">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">3번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.05</p>
+<h2>과일 보관용기</h2><p class="video-title">금포도인 줄 알았는데 매대에 쌓였어요</p><a class="buy" data-pick="3" href="https://link.coupang.com/a/hyUi2sO2Dc" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/DJpob3_W728">소개 영상 다시 보기</a></div></li>
+<li class="product" id="2" data-number="2" data-search="2 방수 장화 그 반지하, 잠기려고 지은 집이었어요">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">2번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.10.04</p>
+<h2>방수 장화</h2><p class="video-title">그 반지하, 잠기려고 지은 집이었어요</p><a class="buy" data-pick="2" href="https://link.coupang.com/a/hxUvrbCb0u" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/pjAwFbSklNc">소개 영상 다시 보기</a></div></li>
+<li class="product" id="" data-number="" data-search=" 지퍼백 지퍼백은 원래 연필 넣는 봉투였음">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.09.29</p>
+<h2>지퍼백</h2><p class="video-title">지퍼백은 원래 연필 넣는 봉투였음</p><a class="buy" data-pick="" href="https://link.coupang.com/a/hqv99zgS04" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/ERBUTLWkREs">소개 영상 다시 보기</a></div></li>
+<li class="product" id="" data-number="" data-search=" 보온 텀블러 보온병, 원래 커피 담는 물건이 아니었음">
+<div class="photo"><div class="photo-empty">상품 사진<br>준비 중</div><span class="number">번</span></div>
+<div class="product-info"><p class="eyebrow">영상 속 추천템 · 2026.09.27</p>
+<h2>보온 텀블러</h2><p class="video-title">보온병, 원래 커피 담는 물건이 아니었음</p><a class="buy" data-pick="" href="https://link.coupang.com/a/hnZwnF4Vc4" rel="sponsored nofollow noopener">쿠팡에서 상품 보기 <span aria-hidden="true">↗</span></a><a class="video-link" href="https://youtube.com/shorts/XUrFikEthR8">소개 영상 다시 보기</a></div></li></ul><p class="empty" id="empty" hidden>찾는 상품이 없어요. 번호나 다른 검색어를 입력해 보세요.</p>
+<footer><a href="index.html">정보세끼 소개</a> · <a href="privacy.html">개인정보처리방침</a></footer>
+</main><script type="application/json" id="measurement">{"endpoint": "", "channel": ""}</script><script>
+const input=document.getElementById('find');const products=[...document.querySelectorAll('.product')];
+function filter(){const raw=input.value.trim().toLowerCase();const number=raw.match(/^(\d+)\s*번?$/);const words=raw.split(/\s+/).filter(Boolean);let visible=0;
+for(const product of products){const match=number?product.dataset.number===String(Number(number[1])):words.every(w=>product.dataset.search.toLowerCase().includes(w));product.hidden=!match;if(match)visible++;}
+document.getElementById('count').textContent=raw?'검색 결과 '+visible+'개':'전체 '+visible+'개 · 최신 등록순';document.getElementById('empty').hidden=visible!==0;}
+input.addEventListener('input',filter);document.getElementById('clear').addEventListener('click',()=>{input.value='';filter();input.focus();});
+const settings=JSON.parse(document.getElementById('measurement').textContent);
+function measure(event,no){if(!settings.endpoint||!settings.channel)return;try{fetch(settings.endpoint,{method:'POST',mode:'cors',credentials:'omit',referrerPolicy:'no-referrer',keepalive:true,headers:{'Content-Type':'text/plain'},body:JSON.stringify({event,channel:settings.channel,pick:no||''})}).catch(()=>{});}catch(error){}}
+document.querySelectorAll('.buy[href]').forEach(link=>link.addEventListener('click',()=>measure('product_click',link.dataset.pick)));
+document.querySelectorAll('.product-photo').forEach(img=>img.addEventListener('error',()=>{const placeholder=document.createElement('div');placeholder.className='photo-empty';placeholder.textContent='상품 사진 준비 중';img.replaceWith(placeholder);}));
+function initial(){const hash=location.hash.slice(1);const q=new URLSearchParams(location.search).get('q');if(q!==null)input.value=q;else if(/^\d+$/.test(hash))input.value=hash;filter();}
+window.addEventListener('hashchange',initial);initial();measure('page_view','');
+</script></body></html>
